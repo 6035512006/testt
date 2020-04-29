@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Nav = ({ handleSignin }) => {
+const Nav = ({ handleCart }) => {
   return (
     
     <div>
@@ -10,7 +10,7 @@ const Nav = ({ handleSignin }) => {
           <h1><font color="white">Gundam Shop</font></h1>
           <ul>
             <li><a href="#">
-              <button onClick={handleSignin}>Cart<ion-icon name="cart-outline"></ion-icon></button>
+              <button onClick={handleCart}>Cart<ion-icon name="cart-outline"></ion-icon></button>
             </a></li>
 
           </ul>

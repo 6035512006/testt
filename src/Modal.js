@@ -7,11 +7,12 @@ const Div = styled.div`
   margin-top: -4rem;
   width: 60%;
 `
+
 const Modal = ({ state, handleClose }) => {
-  const { CartOpen } = state
+  const { cartOpen } = state
   return (
     <> 
-      {CartOpen && (<div><CartForm handleClose={handleClose} /></div>)}
+      {cartOpen && (<Div><CartForm handleClose={handleClose} /></Div>)}
     </>
   )
 }

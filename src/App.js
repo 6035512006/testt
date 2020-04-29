@@ -32,7 +32,7 @@ class App extends Component {
         <div>
         <Nav handleCart={this.handleCart}/>
         <div>
-          {(this.state.CartOpen) && ( <Modal state={this.state} handleClose={this.handleClose} />)}
+          {(this.state.cartOpen) && ( <Modal state={this.state} handleClose={this.handleClose} />)}
         </div>
       </div>
 
