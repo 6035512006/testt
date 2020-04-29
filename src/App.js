@@ -1,26 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Provider } from "react-redux";
+import Products from "./components/Products";
+import store from "./store";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+import Nav from './Nav'
+import Modal from './Modal'
+
+
+
+
+
+class App extends Component {
+
+  state = {
+    cartOpen: false
+  }
+
+  
+  handleCart = () => this.setState({ cartOpen: true })
+  handleClose = () => this.setState({ cartOpen: false })
+
+  render() {
+    return (
+      <Provider store={store}>
+
+
+        <div>
+        <Nav handleCart={this.handleCart}/>
+        <div>
+          {(this.state.CartOpen) && ( <Modal state={this.state} handleClose={this.handleClose} />)}
+        </div>
+      </div>
+
+
+        <div className="container">
+          <h4>Select product to the cart</h4>
+          <hr />
+              <Products />
+          </div>
+      </Provider>
+    );
+  }
 }
 
 export default App;

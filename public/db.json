@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": 18644119330491312,
+      "title": "RX-78-2",
+      "description": "RX-78-2",
+      "availableSizes": ["HG"],
+      "price": 340,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 2,
+      "sku": 11854078013954528,
+      "title": "HG MS-07B GOUF",
+      "description": "HG MS-07B GOUF",
+      "availableSizes":["HG"],
+      "price": 510,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 3,
+      "sku": 876661122392077,
+      "title": "MG 00 GUNDAM SEVEN SWORD/G",
+      "description": "MG 00 GUNDAM SEVEN SWORD/G",
+      "availableSizes":["HG"],
+      "price": 640,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 4,
+      "sku": 9197907543445677,
+      "title": "HG MSN-06S SINANJU",
+      "description": "HG MSN-06S SINANJU",
+      "availableSizes": ["HG"],
+      "price": 880,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 5,
+      "sku": 10547961582846888,
+      "title": "HG UNICORN GUNDAM BANSHEE",
+      "description": "HG UNICORN GUNDAM BANSHEE",
+      "availableSizes": ["HG"],
+      "price": 610,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 6,
+      "sku": 6090484789343891,
+      "title": "HG RYUSEI-GO GRAZE CUSTOM II",
+      "description": "HG RYUSEI-GO GRAZE CUSTOM II",
+      "availableSizes": ["HG"],
+      "price": 410,
+      "isFreeShipping": false
+    },
+
+    {
+      "id": 7,
+      "sku": 18532669286405342,
+      "title": "HG MS-05S ZAKU I",
+      "description": "HG MS-05S ZAKU I",
+      "availableSizes": ["HG"],
+      "style": "",
+      "price": 580,
+      "isFreeShipping": true
+    },
+
+    {
+      "id": 8,
+      "sku": 5619496040738316,
+      "title": "HG BALL TWIN SET",
+      "description": "HG BALL TWIN SET",
+      "availableSizes":["HG"],
+      "style": "Azul escuro",
+      "price": 440,
+      "isFreeShipping": false
+    },
+    {
+      "id": 9,
+      "sku": 11600983276356165,
+      "title": "HG GUNDAM BARBATOS LUPUS",
+      "description": "HG GUNDAM BARBATOS LUPUS",
+      "availableSizes":["HG"],
+      "price": 340,
+      "isFreeShipping": true
+    }
+  ]
+}
